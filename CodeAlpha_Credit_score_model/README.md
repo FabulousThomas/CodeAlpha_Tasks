@@ -34,12 +34,14 @@ Using **SHAP**, I decomposed the model's "Black Box" into actionable insights:
 * **Top Risk Driver:** `ExternalRiskEstimate`. Higher scores drastically reduce default probability.
 * **Credit Utilization:** `NetFractionRevolvingBurden` is a primary predictor of high-risk behavior.
 
+"The final Tuned Random Forest model achieved an AUC of 0.805, outperforming the baseline Decision Tree by a significant margin. By optimizing for max_depth and min_samples_split, the model achieved a high Recall (0.75) for high-risk applicants, successfully balancing the trade-off between identifying defaulters and maintaining overall accuracy. The close performance of the Logistic Regression model suggests that the feature engineering successfully captured the linear risk signals inherent in the FICO dataset."
+
 ---
 
 ## 🚀 How to Run
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`.
-3. Run the script: `python credit_scoring_final.py`.
+3. Run the script: `python main.py`.
 
 ---
 
