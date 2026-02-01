@@ -1,4 +1,4 @@
-## Disease Prediction from Medical Data
+## Heart Disease Prediction from Medical Data
 
 ### Objective
 To predict the presence of heart disease using clinical patient data.

@@ -42,8 +42,3 @@ Using **SHAP**, I decomposed the model's "Black Box" into actionable insights:
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Run the script: `python main.py`.
-
----
-
-## 📜 License
-Distributed under the MIT License.
