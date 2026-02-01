@@ -91,8 +91,6 @@ the model learned meaningful medical patterns.
 ## 🚀 How to Run
 
 ``` bash
-git clone <your-repo-url>
-cd heart-disease-prediction
 pip install -r requirements.txt
 python main.py
 ```
