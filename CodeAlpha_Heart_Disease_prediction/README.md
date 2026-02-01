@@ -11,49 +11,49 @@ metrics.
 
 ## 📊 Dataset
 
--   **Source:** UCI Heart Disease Dataset (Cleveland)\
--   **Accessed via:** Kaggle (`heart_cleveland_upload.csv`)\
+-   **Source:** UCI Heart Disease Dataset (Cleveland)
+-   **Accessed via:** Kaggle (`heart_cleveland_upload.csv`)
 -   **Features:** Age, sex, chest pain type, cholesterol, resting blood
-    pressure, max heart rate, and more\
+    pressure, max heart rate, and more
 -   **Target:** Presence of heart disease (binary classification)
 
 ------------------------------------------------------------------------
 
 ## 🧰 Tech Stack
 
--   **Language:** Python 3.12\
+-   **Language:** Python 3.12
 -   **Libraries:**
-    -   pandas\
-    -   scikit-learn\
-    -   imbalanced-learn\
-    -   xgboost\
+    -   pandas
+    -   scikit-learn
+    -   imbalanced-learn
+    -   xgboost
     -   matplotlib, numpy
 
 ------------------------------------------------------------------------
 
 ## 🧪 Feature Engineering
 
-The dataset is already numerically encoded and relatively clean.\
+The dataset is already numerically encoded and relatively clean.
 Minimal preprocessing was required beyond: - Train/test split with
-**stratification**\
+**stratification**
 - Scaling numerical features for distance-based models
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Implementation Details
 
-**Algorithms compared:** - Logistic Regression\
-- Random Forest\
-- Support Vector Machine (SVM)\
+**Algorithms compared:** - Logistic Regression
+- Random Forest
+- Support Vector Machine (SVM)
 - XGBoost
 
 **Preprocessing:** - Applied **StandardScaler** for Logistic Regression
-and SVM\
+and SVM
 - Tree-based models used raw feature values
 
-**Evaluation Metrics:** - Accuracy\
-- ROC-AUC\
-- ROC Curves\
+**Evaluation Metrics:** - Accuracy
+- ROC-AUC
+- ROC Curves
 - Feature importance (Random Forest)
 
 ------------------------------------------------------------------------
@@ -77,10 +77,10 @@ interpretability for clinical use)
 Feature importance analysis (using Random Forest) highlighted the most
 influential predictors of heart disease risk:
 
--   **Thalassemia (thal)**\
--   **Max heart rate achieved (thalach)**\
--   **ST depression (oldpeak)**\
--   **Chest pain type (cp)**\
+-   **Thalassemia (thal)**
+-   **Max heart rate achieved (thalach)**
+-   **ST depression (oldpeak)**
+-   **Chest pain type (cp)**
 -   **Age and cholesterol**
 
 These features align with known clinical risk factors, indicating that
