@@ -91,7 +91,7 @@ plt.title('ROC Curves for Heart Disease Prediction Models')
 plt.legend(loc="lower right")
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-# plt.savefig('roc_curves.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/roc_curves.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # 5.2 Feature Importance Analysis
@@ -117,7 +117,7 @@ plt.xticks(range(len(importances)), [feature_names[i] for i in indices], rotatio
 plt.xlabel('Features')
 plt.ylabel('Importance Score')
 plt.tight_layout()
-# plt.savefig('feature_importance.png', dpi=300, bbox_inches='tight')
+plt.savefig('images/feature_importance.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 print(f"\nNote: Best model is {best_model_name} with ROC-AUC: {results[best_model_name]:.4f}")
